@@ -10,7 +10,7 @@ This application is your intelligent research companion. Here you can upload pap
     
 2. **Create the Workspace**:  
    ```bash  
-   daytona create <SAMPLE_REPO_URL> 
+   daytona create git@github.com:rohanacharya38/Briefly.git 
    ```  
 
 3. **Forward port 5001**
