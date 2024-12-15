@@ -22,7 +22,7 @@ This application is your intelligent research companion. Here you can upload pap
    npm run dev
    ```  
   - Navigate to server:
-     ```bash  
+   ```bash  
    cd backend
    node app.js
    ``` 
