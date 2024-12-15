@@ -1,0 +1,20 @@
+{
+    "name": "Briefly Development Environment",
+    "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+    "forwardPorts": [
+      5173
+    ],
+    "customizations": {
+      "vscode": {
+        "settings": {
+          "editor.formatOnSave": true,
+          "eslint.enable": true
+        },
+        "extensions": [
+          "esbenp.prettier-vscode",
+          "dbaeumer.vscode-eslint"
+        ]
+      }
+    },
+    "postCreateCommand": "npm install --prefix client && npm install --prefix backend"
+  }
